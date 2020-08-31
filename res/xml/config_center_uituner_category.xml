@@ -81,6 +81,17 @@
 
     </PreferenceCategory>
 
+
+    <PreferenceCategory
+
+        android:key="miuislider_style"
+        android:title="@string/miuislider_style_title"
+        android:dialogTitle="@string/miuislider_style_title"
+        android:entries="@array/miuislider_style_entries"
+        android:entryValues="@array/miuislider_style_values"
+        android:defaultValue="0" />
+
+    </PreferenceCategory>
     <PreferenceCategory
         android:key="uituner_blur"
         android:title="@string/uituner_blur">

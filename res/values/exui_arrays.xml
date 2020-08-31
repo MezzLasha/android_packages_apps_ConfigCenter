@@ -477,4 +477,16 @@
         <item>@string/volume_panel_tiled_val</item>
     </string-array>
 
+   <!-- miuislider styles -->
+    <string-array name="miuislider_style_entries" translatable="false">
+        <item>@string/miuislider_default</item>
+        <item>@string/miuislider_md2</item>
+    </string-array>
+
+    <string-array name="miuislider_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
 </resources>
