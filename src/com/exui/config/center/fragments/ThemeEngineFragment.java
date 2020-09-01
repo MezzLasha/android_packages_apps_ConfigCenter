@@ -25,6 +25,7 @@ import androidx.fragment.app.FragmentManager;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.display.NightModePreferenceController;
+import com.android.settings.display.FontSizePreferenceController;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.OverlayCategoryPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -76,6 +77,7 @@ public class ThemeEngineFragment extends DashboardFragment {
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.primary_color"));
         controllers.add(new NightModePreferenceController(context));
+        controllers.add(new FontSizePreferenceController(context));
         return controllers;
     }
 } 
